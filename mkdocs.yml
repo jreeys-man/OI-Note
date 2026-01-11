@@ -7,6 +7,7 @@ nav:
   - Getting Started: index.md
   - 其他: 
     - 时间和空间复杂度: other/time-and-space-complexity.md
+
 theme:
   name: material
   language: zh
@@ -17,11 +18,12 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - content.footnote.tooltips
     - content.code.copy
+    - content.footnote.tooltips
 
 markdown_extensions:
   - admonition
+  - footnotes
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
