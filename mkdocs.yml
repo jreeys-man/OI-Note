@@ -13,6 +13,7 @@ nav:
     - 题目部分简介: problem/index.md
     - P1000 回文日期: problem/P1000.md
     - P1001 最大公约数与最小公倍数问题: problem/P1001.md
+    - P1002 位数问题: problem/P1002.md
 
 theme:
   name: material
