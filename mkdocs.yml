@@ -6,9 +6,9 @@ repo_name: jreeys-man/OI-Note
 nav:
   - Getting Started: index.md
   - 杂项: 
-    - 杂项部分简介: other/index.md
-    - 表达式计算: other/expression.md
-    - 时间和空间复杂度: other/time-and-space-complexity.md
+    - 杂项部分简介: misc/index.md
+    - 表达式计算: misc/expression.md
+    - 时间和空间复杂度: misc/time-and-space-complexity.md
   - 题目:
     - 题目部分简介: problem/index.md
     - P1000 回文日期: problem/P1000.md
@@ -28,6 +28,13 @@ theme:
     - content.code.copy
     - content.footnote.tooltips
 
+plugins:
+  - search
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
 markdown_extensions:
   - admonition
   - footnotes
@@ -42,6 +49,11 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/jreeys-man/
 
 extra_javascript:
   - javascripts/katex.js
